@@ -4,4 +4,9 @@ from aiogram.fsm.state import StatesGroup, State
 class Authorization(StatesGroup):
     start = State()
     success = State()
-    fail = State()
+
+
+class Mileage(StatesGroup):
+    start = State()
+    interval_input = State()
+    dates_input = State()
